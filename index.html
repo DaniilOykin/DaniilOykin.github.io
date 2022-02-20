@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Заголовок</title>
+    <base><base href="">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="keywords" content="html справочник, справочник по html"></meta>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="#" target="" download>Link</a>
+    </nav>
+    
+    <abbr title="Cascading Style Sheets">CSS</abbr>
+    <address>
+        <p>Пишите нам на email: info@company.ru</p>
+        <p>Звоните: +9955142525</p>
+        <p>Адрес: Страна, город, улица</p>
+    </address>
+
+    <article>
+        <h1>Заголовок статьи</h1>
+        <p>Текст статьи</p>
+    </article>
+
+    <audio src="" controls autoplay loop preload muted></audio>
+
+    <b>на этот текст</b>
+    <blockquote cite="http://filosov.ru/">Какая-то умная фраза какого-нибудь философа</blockquote>
+    <p>Текст на одной строке<br>текст на другой строке</p>
+    <button name="simple_btn" value="clicked" type="button" disabled>Обычная кнопка</button>
+
+    <canvas width="200" height="100" id="draw" style="background-color: #c5def1;">
+        Ваш браузер не поддерживает canvas.
+    </canvas>
+
+    <table style="width: 100%;">
+        <caption>Заголовок таблицы</caption>
+        <colgroup span="4">
+            <col span="2" class="bg-green">
+            <col span="2" class="bg-red">
+        </colgroup>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Пользователь</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>htmlbase</td>
+                <td>info@htmlbase.ru</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Всего записей: 1</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <blockquote>Чья-то умная фраза</blockquote>
+    <cite>Автор фразы</cite>
+
+    <p>Укажите в атрибуте <code>href</code> ссылку на страницу.</p>
+
+    <label for="city">Введите город:</label>
+    <input list="city-list" id="city" name="city">
+
+    <datalist id="city-list">
+        <option value="Москва">
+        <option value="Рига">
+    </datalist>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Язык гипертекстовой разметки, служит для создания HTML страниц</dd>
+        <dt>CSS</dt>
+        <dd>Каскадные таблицы стилей, служат для стилизации элементов HTML страницы</dd>
+    </dl>
+
+    <details open="true">
+        <summary>Как выучить HTML?</summary>
+        <p>Учиться на htmlbase.ru</p>
+    </details>
+
+    <p><dfn>Джун</dfn> - так называют начинающего разработчика в современном мире.</p>
+
+    <div>
+        <p>Какой-то текст</p>
+    </div>
+
+    <p>Обычный текст, а <em>данный текст</em> с акцентом!</p>
+
+    <embed src="https://www.youtube.com/embed/xxxxxx" type="" width="640" height="480">
+
+    <fieldset name="" disabled>
+        <legend>Личные данные</legend>
+        
+        <input type="text" name="name" placeholder="Имя"></input>
+        <input type="text" name="sname" placeholder="Фамилия"></input>
+    </fieldset>
+
+    <figure>
+        <img src="" alt=""></img> 
+        <figcaption>Путешествие по миру</figcaption>
+    </figure>
+
+    <form action="signin" method="post" name="" autocomplete="" target="" enctype="" novalidate>
+        <input type="text" name="username" placeholder="Логин">
+        <input type="password" name="password" placeholder="Пароль">
+    </form>
+
+    <h1>Самый главный заголовок</h1>
+    <h2>Самый главный заголовок</h2>
+    <h3>Самый главный заголовок</h3>
+    <h4>Самый главный заголовок</h4>
+    <h5>Самый главный заголовок</h5>
+    <h6>Самый главный заголовок</h6>
+
+    <p>Текст</p>
+    <hr>
+    <p>Следующий текст</p>
+
+    <p>Текст обычный, а потом <i>наклонный</i>.</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xxxxxxxx" name="" allow="" sandbox=""></iframe>
+    <img src="https://htmlbase.ru/storage/app/media/html5-css3.png" alt="" width="" height="" title="" srcset="" sizes="" usemap="#map">
+
+    <input type="text" name="username"> доделать
+
+    <p>Данное событие произошло <del>22</del> <ins>23</ins> июня</p>
+    <p>Нажмите <kbd>Ctrl + S</kbd> для сохранения.</p>
+
+    <ul>
+        <li>Хлеб</li>
+        <li>Картошка</li>
+        <li>Масло</li>
+      </ul>
+
+    <main>
+        <h1>Основное содержание страницы</h1>
+    </main>
+    
+    <aside>
+        <h3>Сайдбар</h3>
+    </aside>
+
+    <map name="html5-css3">
+        <area></area> дополнить
+    </map>
+
+    <p>Какой-то текст, а потом <mark>подсвеченный текст</mark></p>
+
+    <meter id="task" min="0" max="100" low="25" high="50" optimum="75" value="70"></meter>
+
+    <noscript>
+        <p>У вас отключен javascript. Пожалуйста, включите javascript для корректной работы сайта.</p>
+    </noscript>
+
+    <label for="subject">Выберите тему:</label>
+    <select name="subject" id="subject">
+        <optgroup label="Основное">
+            <option>Работа с системой</option>
+            <option>Возникла ошибка</option>
+        </optgroup>
+        <optgroup label="Проблема с аккаунтом">
+            <option>Не могу войти</option>
+            <option>Забыл пароль</option>
+        </optgroup>
+    </select>
+
+    <picture>
+        <source media="(max-width: 650px)" srcset=""></source> дополнить
+        <img src="" alt=""></img>
+    </picture>
+
+    <pre>&lt;!DOCTYPE html&gt;
+        &lt;html lang=&quot;ru&quot;&gt;
+            &lt;head&gt;
+                &lt;meta charset=&quot;UTF-8&quot;&gt;
+                &lt;title&gt;Заголовок&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;p&gt;Содержимое страницы&lt;/p&gt;
+            &lt;/body&gt;
+    &lt;/html&gt;</pre>
+
+    <progress max="100" value="60">60%</progress>
+
+    <p>Как говорил один мудрец <q>Теория без практики - время на ветер.</q></p>
+
+    <p>Текст <u>предложения</u></p>
+
+    <p>Я изучаю создание сайтов <s>1</s> 2 года</p>
+
+    Нажмите клавишу F2 и вы увидите надпись: <samp>Вы нажали клавишу F2</samp>
+
+    <script src="js/app.js"></script>
+
+    <script>
+    console.log('test');
+    </script>
+
+    <section>
+        <h3>О компании</h3>
+        <p>Мы очень классные</p>
+    </section>
+
+    <svg style="display: none;">
+        <symbol id="tick-icon" viewBox="0 0 515.556 515.556">
+           <path d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"/>
+        </symbol>
+     </svg>
+     
+     <svg>
+       <use href="#tick-icon" width="75" height="75" fill="#09ac1e"></use>
+     </svg>
+
+    <p>Формула, выражающая эквивалентность массы и энергии <var>E = mc<sup>2</sup></var>, где <var>E</var> — энергия объекта, <var>m</var> — его масса, <var>c</var> — скорость света в вакууме, равная 299 792 458 м/с.</p>
+
+    <video src="https://htmlbase.ru/storage/app/media/demo.mp4" controls></video> дополнить
+
+    <h2>НапримерДлинное<wbr>НазваниеКомпании</h2> разрыв
+
+    <p>Стоимость <small>1000 руб.</small></p>
+
+    <p>Вода это H<sub>2</sub>O</p>
+
+    <p>Решите пример: 2 + x<sup>2</sup> = 6</p>
+
+    <audio controls>
+        <source src="files/file.mp3" type="audio/mpeg">
+        <source src="files/file.ogg" type="audio/ogg">
+    </audio>
+
+    <p>Идет какой-то текст и <span>эта часть текста</span>, которую надо как-то по-особенному стилизовать через CSS.</p>
+
+    <p><strong>Данный текст</strong> очень важный</p>
+
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+
+    Опубликовано: <time datetime="2019-04-29 19:00">3 дня назад</time>
+
+    <textarea name="text" placeholder="Текст сообщения"></textarea>
+    
+    <template>
+    </template>
+
+</body>
+
+<footer>
+    <p>Все права защищены.</p>
+    <p>Сделано в студии.</p>
+</footer>
+
+</html>
